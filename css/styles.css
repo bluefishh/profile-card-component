@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: auto;
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+.card-body > p {
+    font-size: 0.9rem;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 5px;
+}
+
+.card-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-background {
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+}
+
+.profile-background > img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-image {
+    background-color: aqua;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: translateY(-50%);
+    margin-bottom: -50px;
+}
+
+.profile-image > img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(78, 95, 111);
+}
+
+.card-icons > div {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.card-icons > div > svg {
+    margin-right: 10px;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid rgba(167, 164, 164, 0.565);
+    background-color: rgb(248, 249, 249);
+}
+
+.card-footer div {
+    width: 100%;
+    height: 100%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-right: 1px solid rgba(167, 164, 164, 0.565);
+}
+
+.card-footer > div > p {
+    font-size: 0.8rem;
+}
+
+.botton-footer button {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: rgb(100, 188, 127);
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-shadow: 0.5px 0.5px 0.5px gray;
+}
+
+.botton-footer button:hover {
+    cursor: pointer;
+    background-color: rgb(88, 159, 109);
+}
